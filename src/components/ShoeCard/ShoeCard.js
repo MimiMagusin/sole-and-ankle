@@ -58,6 +58,7 @@ const Link = styled.a`
 
 const Wrapper = styled.article`
   width: 340px;
+  position: relative;
 `;
 
 const ImageWrapper = styled.div`
@@ -77,7 +78,8 @@ const Name = styled.h3`
   color: ${COLORS.gray[900]};
 `;
 
-const Price = styled.span``;
+const Price = styled.span`
+`;
 
 const ColorInfo = styled.p`
   color: ${COLORS.gray[700]};
@@ -85,7 +87,13 @@ const ColorInfo = styled.p`
 
 const SalePrice = styled.span`
   font-weight: ${WEIGHTS.medium};
-  color: ${COLORS.primary};
+  color: white;
+  background: ${COLORS.secondary};
+  border-radius: 2px 0 0 2px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 12px;
+  right: 0;
 `;
 
 export default ShoeCard;
