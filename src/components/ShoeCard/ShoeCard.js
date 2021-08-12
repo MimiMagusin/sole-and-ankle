@@ -89,11 +89,11 @@ const SalePrice = styled.span`
   font-weight: ${WEIGHTS.medium};
   color: white;
   background: ${COLORS.secondary};
-  border-radius: 2px 0 0 2px;
+  border-radius: 2px;
   padding: 8px 12px;
   position: absolute;
   top: 12px;
-  right: 0;
+  right: -4px;
 `;
 
 export default ShoeCard;
